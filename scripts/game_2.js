@@ -1,5 +1,5 @@
 let board = []
-let score = 20
+let score = 0
 let ROWS = 20
 let COLS = 30
 let FPS = 4

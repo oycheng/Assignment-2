@@ -37,6 +37,7 @@ function resetGame() {
     if (!confirm("Reset Game?"))
         return
     score = 0
+    document.getElementById("score").innerText = score
     docBoard = document.getElementById("board");
     player = []
     movement = [-1, 0]

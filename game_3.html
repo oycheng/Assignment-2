@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arcade Game Hub | 2048</title>
+    <meta name="description" content="Astroids Arcade Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/game_3.css">
+    <script src="scripts/jquery-1.4.1.min.js"></script>
+    <script src="scripts/vector_battle_regular.typeface.js"></script>
+    <script src="scripts/game_3.js"></script>
+    <!-- 
+        Open Source Game - Asteriods
+        https://github.com/dmcinnes/HTML5-Asteroids
+    -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1><a href="index.html">Arcade Game Hub</a></h1>
+        </nav>
+    </header>
+    <section>
+        <div class="game-container">
+            <div class="game">
+                <h1>Astroids</h1>
+                <h2>Score: <span id="score">0</span></h2>
+                <div id="game-container">
+                    <canvas id="canvas" width="780" height="540"></canvas>
+                  </div>
+            </div>
+            <h3>How To Play</h3>
+            <p>Use arrow keys or WASD to move the ship, space to shoot.</p>
+            </div>
+    </section>
+    <footer>
+        <div class="copyright-box">
+            <p>
+                Website created for educational purposes.
+                <br><br> <span>&#169;</span>2024 by Orien Cheng.
+            </p>
+            <a href="#">
+                <button class="top-button" title="Go to Top">
+                    <span></span>Top
+                </button>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

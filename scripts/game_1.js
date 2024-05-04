@@ -82,6 +82,7 @@ function resetGame() {
         board[r] = row
     }
     setTwo()
+    setTwo()
 }
 
 function slide(row) {
